@@ -208,7 +208,7 @@ handleNext=()=>
         <>
         
       <div className='container'>
-         <h1>Top headlines in the US right now</h1>
+         <h1 className='text-center'>Top headlines in the US right now</h1>
           {this.state.loading&&<Loader/>}
             <div className="row">
                 {!this.state.loading&&this.state.articles.map((element)=>

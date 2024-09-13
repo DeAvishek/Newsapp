@@ -34,7 +34,7 @@ export default class App extends Component {
               <Routes>
                   <Route exact path="/" element={<News key="business" pageSize={6} catagory="business"/>}/>
                   <Route exact path="/entertainment" element={<News key="entertainment"pageSize={6} catagory="entertainment"/>} />
-                  <Route exact path="/generalhealth" element={<News key="generalhealth" pageSize={6}  catagory="generalhealth"/>} />
+                  {/* <Route exact path="/generalhealth" element={<News key="generalhealth" pageSize={6}  catagory="generalhealth"/>} /> */}
                   <Route exact path="/science" element={<News key="science"pageSize={6}  catagory="science"/>} />
                   <Route exact path="/sports" element={<News key="sports"pageSize={6}  catagory="sports"/>} />
                   <Route exact path="/technology" element={<News key="technology" pageSize={6}  catagory="technology"/>}/>

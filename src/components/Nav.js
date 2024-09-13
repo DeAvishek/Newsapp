@@ -22,9 +22,9 @@ export default class Nav extends Component {
                     <li className="nav-item">
                       <a className="nav-link" href="/entertainment">Entertainment</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a className="nav-link" href="/generalhealth">Generalhealth</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a className="nav-link" href="/science">Science</a>
                     </li>
